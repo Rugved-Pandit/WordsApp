@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">wordsApp</string>
+    <string name="info">
+        some info on how to use the app \n\n
+
+        -> when using the chat, just type:\n
+        \t\t\t\t@ word\n
+        \t\t\t\tFor getting word and its meaning\n\n
+
+        \t\t\t\t@ word full\n
+        \t\t\t\tFor full info\n\n
+
+        \t\t\t\t@ word attribute\n
+        \t\t\t\tFor getting that attribute\n\n
+
+        -> when making a new word/kanji, press the "+" button to add the new attributes to it\n\n
+
+        -> you can add image to the word and kanji, it won\'t show up but it will be added\n\n
+
+        *note:\n
+        \t\t\t\t"@" is an identifier for commands, do not use it anywhere else other than commands\n\n
+        \t\t\t\t"word" and "attribute" are keywords here\n\n
+
+    </string>
+    <string name="title_activity_3">Activity3</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wordsapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".Activity3"></activity>
+        <activity android:name=".KanjiDetailsActivity" />
+        <activity android:name=".NewKanjiActivity" />
+        <activity android:name=".KanjiActivity" />
+        <activity android:name=".InfoActivity" />
+        <activity android:name=".WordDetailsActivity" />
+        <activity android:name=".NewWordActivity" />
+        <activity android:name=".WordsActivity" />
+        <activity android:name=".Activity2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
